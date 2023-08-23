@@ -1,0 +1,43 @@
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+  
+  
+  img {
+    height: 30px;
+  }
+}
+  
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.menu {
+    background-color: #6a7769;
+
+    img {
+        width: 100px;
+    }
+
+    a {
+        font-family: 'Poppins';
+        font-weight: 800;
+        font-size: 1.5rem;
+        color: #e5d9c3;
+        text-decoration: none;
+    }
+}
+
+.nav-item {
+    padding: 0px 10px 0px 10px;
+}

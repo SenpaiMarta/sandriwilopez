@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/*CÓDIGOS DE COLOR DE MARCA:
+VERDE OSCURO: 6a7769
+ROSA OSCURO: e0738c
+BEIGE: e5d9c3 */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*IMPORTAMOS FUENTES*/
+/*WEIGHTS: 300 / 800 */
+/*ESTILOS DE TEXTOS*/
+h1 {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 2rem;
+  color: #6a7769;
+  text-align: center;
+  padding: 5%;
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 1rem;
+  color: #6a7769;
+}
+p .txtDest {
+  font-weight: 800;
+}
+
+/*PARTIALS*/
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+}
+.navbar-toggler img {
+  height: 30px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.menu {
+  background-color: #6a7769;
+}
+.menu img {
+  width: 100px;
+}
+.menu a {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #e5d9c3;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0px 10px 0px 10px;
+}
+
+.principal {
+  background: linear-gradient(to bottom, #e5d9c3, #fafafa);
+  height: 920px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
