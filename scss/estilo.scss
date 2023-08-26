@@ -18,7 +18,23 @@ h1 {
     font-size: 2rem;
     color: #6a7769;
     text-align: center;
-    padding: 5%;
+    padding: 3%;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #e0738c;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #e5d9c3;
+    text-align: center;
 }
 
 p {
@@ -38,5 +54,6 @@ p {
 /*PARTIALS*/
 @import "menu";
 @import 'index';
+@import 'responsive'
 
 

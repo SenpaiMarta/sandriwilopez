@@ -1,0 +1,31 @@
+@media (max-width: 719px) {
+    .cajaInicio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        background-image: url(../images/estampadoRespRosa.png);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    
+    }
+
+    .filaInfo {
+        display: block;
+        img {
+            width: 100%;
+            margin: auto;
+        }
+    }
+
+    .filaInfoRev {
+        display: block;
+        img {
+            width: 100%;
+            margin: auto;
+        }
+    }
+
+}

@@ -18,7 +18,23 @@ h1 {
   font-size: 2rem;
   color: #6a7769;
   text-align: center;
-  padding: 5%;
+  padding: 3%;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #e0738c;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #e5d9c3;
+  text-align: center;
 }
 
 p {
@@ -67,12 +83,92 @@ p .txtDest {
 }
 
 .nav-item {
-  padding: 0px 10px 0px 10px;
+  padding: 0px 15px 0px 15px;
 }
 
 .principal {
-  background: linear-gradient(to bottom, #e5d9c3, #fafafa);
-  height: 920px;
+  background: #e5d9c3;
+  height: fit-content;
+}
+
+.cajaInicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background-image: url(../images/estampadoRosa.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardsInicio {
+  display: flex;
+  flex-direction: row;
+}
+.cardsInicio .card1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 180px;
+  background-color: #6a7769;
+}
+.cardsInicio .card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 180px;
+  background-color: #e0738c;
+}
+
+.filaInfo {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+.filaInfo img {
+  width: 50%;
+}
+
+.filaInfoRev {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+.filaInfoRev img {
+  width: 50%;
+}
+
+@media (max-width: 719px) {
+  .cajaInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url(../images/estampadoRespRosa.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .filaInfo {
+    display: block;
+  }
+  .filaInfo img {
+    width: 100%;
+    margin: auto;
+  }
+  .filaInfoRev {
+    display: block;
+  }
+  .filaInfoRev img {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

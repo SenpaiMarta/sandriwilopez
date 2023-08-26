@@ -1,4 +1,61 @@
 .principal {
-    background:linear-gradient(to bottom, #e5d9c3, #fafafa);
-    height: 920px;
+    background:#e5d9c3;
+    height: fit-content;
+}
+
+.cajaInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-image: url(../images/estampadoRosa.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cardsInicio {
+    display: flex;
+    flex-direction: row;
+
+    .card1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 180px;
+        background-color: #6a7769;
+    }
+
+    .card2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 180px;
+        background-color: #e0738c;
+    }
+}
+
+.filaInfo {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    img {
+        width: 50%;
+
+    }
+}
+
+.filaInfoRev {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    img {
+        width: 50%;
+
+    }
 }
