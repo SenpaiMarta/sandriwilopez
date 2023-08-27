@@ -24,7 +24,7 @@ h1 {
 h2 {
   font-family: "Poppins";
   font-weight: 800;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   color: #e0738c;
   text-align: center;
 }
@@ -32,7 +32,7 @@ h2 {
 h3 {
   font-family: "Poppins";
   font-weight: 800;
-  font-size: 1.3rem;
+  font-size: 2rem;
   color: #e5d9c3;
   text-align: center;
 }
@@ -44,6 +44,18 @@ p {
 }
 p .txtDest {
   font-weight: 800;
+}
+
+.subtitulo {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #e0738c;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*PARTIALS*/
@@ -81,6 +93,10 @@ p .txtDest {
   color: #e5d9c3;
   text-decoration: none;
 }
+.menu li:hover {
+  animation: pulse;
+  animation-duration: 3s;
+}
 
 .nav-item {
   padding: 0px 15px 0px 15px;
@@ -89,6 +105,7 @@ p .txtDest {
 .principal {
   background: #e5d9c3;
   height: fit-content;
+  overflow-x: hidden;
 }
 
 .cajaInicio {
@@ -101,6 +118,11 @@ p .txtDest {
   width: 100%;
   background-size: cover;
   background-position: center;
+}
+.cajaInicio h1 {
+  animation: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .cardsInicio {
@@ -123,6 +145,18 @@ p .txtDest {
   height: 180px;
   background-color: #e0738c;
 }
+.cardsInicio a {
+  text-decoration: none;
+  color: #e5d9c3;
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 2rem;
+}
+.cardsInicio a:hover {
+  animation: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
 
 .filaInfo {
   display: flex;
@@ -131,18 +165,23 @@ p .txtDest {
 }
 .filaInfo img {
   width: 50%;
+  padding: 20px 20px 20px 20px;
 }
 
-.filaInfoRev {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  padding: 0px 20px 0px 20px;
-}
-.filaInfoRev img {
-  width: 50%;
+.imagenFull {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
 }
 
+.imagenResp {
+  padding: 20px 0px 20px 0px;
+}
+
+@media (min-width: 710px) {
+  .imagenResp {
+    display: none;
+  }
+}
 @media (max-width: 719px) {
   .cajaInicio {
     display: flex;
@@ -162,12 +201,8 @@ p .txtDest {
     width: 100%;
     margin: auto;
   }
-  .filaInfoRev {
-    display: block;
-  }
-  .filaInfoRev img {
-    width: 100%;
-    margin: auto;
+  .imagenFull {
+    display: none;
   }
 }
 

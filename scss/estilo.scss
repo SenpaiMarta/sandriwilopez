@@ -24,7 +24,7 @@ h1 {
 h2 {
     font-family: 'Poppins';
     font-weight: 800;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     color: #e0738c;
     text-align: center;
 }
@@ -32,7 +32,7 @@ h2 {
 h3 {
     font-family: 'Poppins';
     font-weight: 800;
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: #e5d9c3;
     text-align: center;
 }
@@ -47,13 +47,25 @@ p {
     }
 }
 
+.subtitulo {
+font-family: 'Poppins';
+font-weight: 800;
+font-size: 1.3rem;
+color: #e0738c;
+text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 
 
 
 /*PARTIALS*/
 @import "menu";
-@import 'index';
-@import 'responsive'
-
+@import 'presentacion';
+@import 'responsive';
+@import 'ilustraciones';
 

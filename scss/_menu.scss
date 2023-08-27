@@ -36,6 +36,11 @@
         color: #e5d9c3;
         text-decoration: none;
     }
+
+    li:hover {
+        animation: pulse;
+        animation-duration: 3s;
+    }
 }
 
 .nav-item {

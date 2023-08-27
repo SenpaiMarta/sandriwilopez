@@ -1,3 +1,10 @@
+@media (min-width: 710px) {
+    .imagenResp {
+        display: none;
+    }
+    
+}
+
 @media (max-width: 719px) {
     .cajaInicio {
         display: flex;
@@ -20,12 +27,8 @@
         }
     }
 
-    .filaInfoRev {
-        display: block;
-        img {
-            width: 100%;
-            margin: auto;
-        }
+    .imagenFull {
+        display: none;
     }
-
+    
 }
