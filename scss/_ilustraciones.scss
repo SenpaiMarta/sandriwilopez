@@ -1,3 +1,38 @@
-.tarjetasIlustracion { 
+.tarjetasPadre { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
+    
+.cajaRosa {
+    margin: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px #e0738c solid;
+    border-radius: 25px;
+
+    h3 {
+    color: #e0738c;
+    }
+}
+
+
+.verde {
+    color: #6a7769;
+}
+
+.cajaVerde {
+    margin: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px #6a7769 solid;
+    border-radius: 25px;
+
+    h3 {
+        color: #6a7769;
+    }
+
+    p {
+        color: #e0738c;
+    }
     
 }

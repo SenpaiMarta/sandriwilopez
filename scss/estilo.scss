@@ -32,7 +32,7 @@ h2 {
 h3 {
     font-family: 'Poppins';
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #e5d9c3;
     text-align: center;
 }
@@ -66,6 +66,6 @@ html {
 /*PARTIALS*/
 @import "menu";
 @import 'presentacion';
-@import 'responsive';
 @import 'ilustraciones';
+@import 'responsive';
 

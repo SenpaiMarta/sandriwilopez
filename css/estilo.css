@@ -32,7 +32,7 @@ h2 {
 h3 {
   font-family: "Poppins";
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #e5d9c3;
   text-align: center;
 }
@@ -150,7 +150,7 @@ html {
   color: #e5d9c3;
   font-family: "Poppins";
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .cardsInicio a:hover {
   animation: pulse;
@@ -174,7 +174,42 @@ html {
 }
 
 .imagenResp {
+  width: 100%;
   padding: 20px 0px 20px 0px;
+}
+
+.tarjetasPadre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 50px;
+  margin-bottom: 50px;
+}
+
+.cajaRosa {
+  margin: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+  border: 2px #e0738c solid;
+  border-radius: 25px;
+}
+.cajaRosa h3 {
+  color: #e0738c;
+}
+
+.verde {
+  color: #6a7769;
+}
+
+.cajaVerde {
+  margin: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+  border: 2px #6a7769 solid;
+  border-radius: 25px;
+}
+.cajaVerde h3 {
+  color: #6a7769;
+}
+.cajaVerde p {
+  color: #e0738c;
 }
 
 @media (min-width: 710px) {
@@ -203,6 +238,9 @@ html {
   }
   .imagenFull {
     display: none;
+  }
+  .tarjetasPadre {
+    display: block;
   }
 }
 
