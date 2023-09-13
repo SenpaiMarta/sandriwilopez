@@ -1,0 +1,20 @@
+footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: #e0738c;
+    padding: 3%;
+
+
+    h3 {
+        text-align: center;
+    }
+
+    a {
+        width: 50px;
+        margin: auto;
+    }
+}

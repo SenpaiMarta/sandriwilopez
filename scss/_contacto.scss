@@ -1,0 +1,87 @@
+.contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 30px 30px;
+    padding: 10px 10px 10px 10px;
+
+    legend {
+        color: #6a7769;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 800;
+        animation: pulse;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    
+    input {
+        color: #e0738c;
+        text-align: center;
+        border: none;
+        height: 40px;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+
+        :focus {
+            border: 1px solid #e0738c;
+            outline: 0 none;
+        }
+
+        ::placeholder {
+            color: #e0738c;
+            text-align: center;
+            align-items: center;
+        }
+
+
+        ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+            color: #e0738c; /* Cambia el color aquí */
+        }
+        :-moz-placeholder { /* Mozilla Firefox 4 a 18 */
+            color: #e0738c; /* Cambia el color aquí */
+            opacity: 1; /* Necesario para Firefox */
+        }
+        ::-moz-placeholder { /* Mozilla Firefox 19+ */
+            color: #e0738c; /* Cambia el color aquí */
+            opacity: 1; /* Necesario para Firefox */
+        }
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #e0738c; /* Cambia el color aquí */
+        }
+    }
+
+    textarea {
+        border: none;
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+        flex-wrap: nowrap;
+        overflow: auto;
+        color: #e0738c;
+        text-align: center;
+        align-items: center;
+        padding: 10%;
+    
+    }
+
+    .botonForm {
+        display: block;
+        background-color: #e5d9c3;
+        border: none;
+        font-size: 2rem;
+        font-weight: 900;
+        color: #e0738c;
+        cursor: pointer;
+        height: fit-content;
+        width: fit-content;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin: auto;    
+    }
+
+    ::-webkit-input-placeholder {
+        text-align: center;
+    }
+}
