@@ -16,5 +16,10 @@ footer {
     a {
         width: 50px;
         margin: auto;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        width: 60px;
     }
 }

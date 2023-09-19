@@ -274,84 +274,38 @@ html {
 }
 
 .contacto {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-  gap: 30px 30px;
-  padding: 10px 10px 10px 10px;
-}
-.contacto legend {
-  color: #6a7769;
   text-align: center;
-  font-size: 2rem;
-  font-weight: 800;
+}
+.contacto h2 {
   animation: pulse;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  padding: 20px;
 }
-.contacto input {
-  color: #e0738c;
-  text-align: center;
-  border: none;
-  height: 40px;
-  width: 100%;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.contacto input :focus {
-  border: 1px solid #e0738c;
-  outline: 0 none;
-}
-.contacto input ::placeholder {
-  color: #e0738c;
-  text-align: center;
-  align-items: center;
-}
-.contacto input ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-  color: #e0738c; /* Cambia el color aquí */
-}
-.contacto input :-moz-placeholder { /* Mozilla Firefox 4 a 18 */
-  color: #e0738c; /* Cambia el color aquí */
-  opacity: 1; /* Necesario para Firefox */
-}
-.contacto input ::-moz-placeholder { /* Mozilla Firefox 19+ */
-  color: #e0738c; /* Cambia el color aquí */
-  opacity: 1; /* Necesario para Firefox */
-}
-.contacto input :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #e0738c; /* Cambia el color aquí */
-}
-.contacto textarea {
-  border: none;
-  height: 200px;
-  width: 100%;
-  border-radius: 10px;
-  flex-wrap: nowrap;
-  overflow: auto;
-  color: #e0738c;
-  text-align: center;
-  align-items: center;
-  padding: 10%;
-  margin-bottom: 30px;
-}
-.contacto .botonForm {
-  display: block;
-  background-color: #e5d9c3;
-  border: none;
-  font-size: 2rem;
-  font-weight: 900;
-  color: #e0738c;
-  cursor: pointer;
-  height: fit-content;
-  width: fit-content;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 10px;
+.contacto img {
+  width: 100px;
   margin: auto;
 }
-.contacto ::-webkit-input-placeholder {
+.contacto p {
+  padding: 20px 300px 20px 300px;
+}
+.contacto a {
+  display: inline-block;
+  background-color: #e0738c;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-weight: 800;
+  font-style: oblique;
+  font-size: 2rem;
+  color: #e5d9c3;
+  text-decoration: none;
   text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+.contacto a:hover {
+  background-color: #6a7769;
+  font-size: 2.1rem;
 }
 
 footer {
@@ -370,6 +324,10 @@ footer h3 {
 footer a {
   width: 50px;
   margin: auto;
+  transition: 0.3s;
+}
+footer a:hover {
+  width: 60px;
 }
 
 @media (min-width: 710px) {
@@ -424,6 +382,12 @@ footer a {
   }
   .botonEncargarVerde {
     font-size: 1rem;
+  }
+  .contacto p {
+    padding: 30px;
+  }
+  .contacto a {
+    margin: 20px;
   }
   footer {
     padding: 30px 0px 30px 0px;
