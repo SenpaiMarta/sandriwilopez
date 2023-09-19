@@ -59,7 +59,23 @@ html {
     scroll-behavior: smooth;
 }
 
+.botonFlotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #e0738c;
+    color: #e5d9c3;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
+.botonFlotante:hover {
+    background-color: #6a7769;
+}
 
 
 

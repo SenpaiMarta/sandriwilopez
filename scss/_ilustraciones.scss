@@ -31,6 +31,7 @@
     padding: 10px 10px 10px 10px;
     border: 2px #6a7769 solid;
     border-radius: 25px;
+    text-align: center;
 
     h3 {
         color: #6a7769;
@@ -39,11 +40,8 @@
     p {
         color: #e0738c;
     }
-    
 }
-.carruselTrabajos {
-    margin-bottom: 10px;
-}
+
 .botonEncargar {
     background-color: #e0738c;
     border-radius: 10px;
@@ -54,5 +52,20 @@
     font-weight: 800;
     font-size: 1.5rem;
     padding: 5px;
-    margin: 5px;
-;}
+}
+
+.botonEncargarVerde {
+    background-color: #6a7769;
+    border-radius: 10px;
+    text-align: center;
+    color: #e5d9c3;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.carruselMargen {
+    margin-bottom: 15px;
+}

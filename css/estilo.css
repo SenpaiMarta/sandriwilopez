@@ -58,6 +58,24 @@ html {
   scroll-behavior: smooth;
 }
 
+.botonFlotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #e0738c;
+  color: #e5d9c3;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botonFlotante:hover {
+  background-color: #6a7769;
+}
+
 /*PARTIALS*/
 .navbar {
   padding-top: 0;
@@ -113,7 +131,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 350px;
+  height: 450px;
   background-image: url(../images/estampadoRosa.png);
   width: 100%;
   background-size: cover;
@@ -135,7 +153,7 @@ html {
   justify-content: center;
   width: 100%;
   height: 180px;
-  background-color: #6a7769;
+  background-color: #e0738c;
 }
 .cardsInicio .card2 {
   display: flex;
@@ -143,7 +161,7 @@ html {
   justify-content: center;
   width: 100%;
   height: 180px;
-  background-color: #e0738c;
+  background-color: #6a7769;
 }
 .cardsInicio a {
   text-decoration: none;
@@ -208,16 +226,13 @@ html {
   padding: 10px 10px 10px 10px;
   border: 2px #6a7769 solid;
   border-radius: 25px;
+  text-align: center;
 }
 .cajaVerde h3 {
   color: #6a7769;
 }
 .cajaVerde p {
   color: #e0738c;
-}
-
-.carruselTrabajos {
-  margin-bottom: 10px;
 }
 
 .botonEncargar {
@@ -230,7 +245,22 @@ html {
   font-weight: 800;
   font-size: 1.5rem;
   padding: 5px;
-  margin: 5px;
+}
+
+.botonEncargarVerde {
+  background-color: #6a7769;
+  border-radius: 10px;
+  text-align: center;
+  color: #e5d9c3;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.carruselMargen {
+  margin-bottom: 15px;
 }
 
 .contacto {
@@ -334,7 +364,7 @@ footer a {
     display: none;
   }
 }
-@media (max-width: 719px) {
+@media (max-width: 710px) {
   .cajaInicio {
     display: flex;
     flex-direction: column;
